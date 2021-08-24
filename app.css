@@ -1,0 +1,53 @@
+.header {
+	background: #3e4099;
+}
+.header_text {
+	color: #fff;
+}
+
+.green_btn {
+	background: #a2cd3b !important;
+	color: #fff !important;
+	margin: 0 5px;
+}
+.green_btn span {
+	display: inline-block;
+	padding-left: 5px;
+}
+.btn_dropdown {
+	background: none !important;
+	color: black !important;
+}
+.dark_purple {
+	background: #3e4099;
+}
+
+#modals_overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.5);
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#modals_overlay .modal-dialog {
+	width: 50%;
+}
+select {
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid grey !important;
+}
+.fa-times {
+	cursor: pointer;
+}
+.space {
+	margin-left: 10px;
+}
+[v-cloak] {
+	display: none;
+}
